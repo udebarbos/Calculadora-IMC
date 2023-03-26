@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    background-color: rgb(33, 33, 33);
+    color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* esconde os resultados da tabela*/
+.hide {
+    display: none !important;
+}
+
+/* quadrado onde ficam as informações */
+.container {
+    min-height: 40vh;
+    min-width: 50vh;
+    background-color: rgb(41, 143, 95);
+    padding: 2rem;
+    border-radius: 20px;
+    border-top: 4px solid;
+    border-bottom: 10px solid;
+    border-left: 3px solid;
+    border-color:rgb(0, 0, 0) ;
+}
+
+/* configurações do form */
+
+#calc-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.form-control input {
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+    background-color: beige;
+    border: none;
+}
+
+.action-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+    background-color: beige;
+    color: rgb(16, 15, 15);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    flex: 0.4;
+}
+
+button:hover {
+    transition: 0.7s;
+    color: rgb(19, 19, 17);
+    background-color: rgb(248, 247, 151);
+}
+
+#clear-btn:hover {
+    transition: 0.7s;
+    color: beige;
+    background-color: rgba(255, 84, 58, 0.808);
+}
+
+/*table*/
+
+#result-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#imc-number {
+    font-size: 2.3rem;
+    margin-bottom: 0.6rem;
+}
+
+#imc-info {
+    font-size: 1.4rem;
+    color: antiquewhite;
+}
+
+#result-container h3{
+    margin-top: 1.5rem;
+    color: wheat;
+}
+
+#imc-table {
+    margin: 2rem 0;
+    font-size: 1rem;
+}
+.table-header{
+    font-weight: bold;
+    color: azure;
+}
+.table-header, .table-data{
+display: flex;
+justify-content: space-between;
+margin-bottom: 0.5rem;
+padding-bottom: 0.5rem;
+border-bottom: 1px solid;
+
+}
+.table-data p, .table-header h4{
+flex: 1;
+}
+
+.table-header h4 :nth-child(3),
+.table-data p :nth-child(3){
+    max-width: 8vh;
+}
+
+#back-btn{
+    margin-top: 2rem;
+    align-self: center;
+}
+
+.good{
+    color: rgb(181, 240, 71);
+}
+.low{
+    color: rgb(210, 178, 64);
+}
+.medium{
+    color: rgb(240, 125, 71);
+}
+.high{
+    color: rgb(240, 71, 71);
+}
