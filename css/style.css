@@ -29,7 +29,7 @@ body {
     border-top: 4px solid;
     border-bottom: 10px solid;
     border-left: 3px solid;
-    border-color:rgb(0, 0, 0) ;
+    border-color: rgb(0, 0, 0);
 }
 
 /* configurações do form */
@@ -111,7 +111,7 @@ button:hover {
     color: antiquewhite;
 }
 
-#result-container h3{
+#result-container h3 {
     margin-top: 1.5rem;
     color: wheat;
 }
@@ -120,41 +120,49 @@ button:hover {
     margin: 2rem 0;
     font-size: 1rem;
 }
-.table-header{
+
+.table-header {
     font-weight: bold;
     color: azure;
 }
-.table-header, .table-data{
-display: flex;
-justify-content: space-between;
-margin-bottom: 0.5rem;
-padding-bottom: 0.5rem;
-border-bottom: 1px solid;
+
+.table-header,
+.table-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid;
 
 }
-.table-data p, .table-header h4{
-flex: 1;
+
+.table-data p,
+.table-header h4 {
+    flex: 1;
 }
 
 .table-header h4 :nth-child(3),
-.table-data p :nth-child(3){
+.table-data p :nth-child(3) {
     max-width: 8vh;
 }
 
-#back-btn{
+#back-btn {
     margin-top: 2rem;
     align-self: center;
 }
 
-.good{
+.good {
     color: rgb(181, 240, 71);
 }
-.low{
+
+.low {
     color: rgb(210, 178, 64);
 }
-.medium{
+
+.medium {
     color: rgb(240, 125, 71);
 }
-.high{
+
+.high {
     color: rgb(240, 71, 71);
 }
