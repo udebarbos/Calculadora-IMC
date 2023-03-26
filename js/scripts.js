@@ -1,3 +1,5 @@
+//intanciando valores da tabela
+
 const data = [
     {
         min: 0,
